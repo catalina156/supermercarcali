@@ -1,0 +1,27 @@
+.logo a img{
+    width: 100px;
+}
+.enlaces ul{
+    list-style: none;
+    display: flex;
+}
+.enlaces ul li{
+    margin-right: 10px;
+}
+.enlaces ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white
+    
+}
+
+.enlaces ul li a:hover{
+    color:red;
+    border-bottom:1px solid red;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    align-items: center;
+}
